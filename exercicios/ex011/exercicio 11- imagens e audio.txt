@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem flexivelfotos audio e videos</title>
+</head>
+<body>
+    <h1>Teste de imagem</h1>
+    <p>Imagens para todos os dispositivos</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1300px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagen flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos reproduzir audios em HTML:5.</p>
+    <audio preload="metadata"autoplay controls> 
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">]
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/WAV">
+    </audio>
+    <p>Infelismente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar</p>
+    <!--MP3 WAV OGG-->
+</body>
+</html>

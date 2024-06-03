@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cores em css</title>
+    <!--Representação por nomes-->
+    <h2 style="background-color: blue; color: white;">Exemplo de cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus autem quasi voluptate odit esse modi, commodi aliquid doloribus ipsum molestiae ex nihil impedit nemo unde, sapiente libero facilis officiis recusandae?</p>
+    
+    <!--Representação por códigos exadecimais -->
+    <!--Decimal  : 0 1 2 3 4 5 6 7 8 9-->
+    <!-- HEXADECIMAL: 0 1 2 3 4 5 6 7 8 9  A B C D F-->
+    <h2 style="background-color: #0000ff; color: #ffffff;">Exemplo de cores</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus autem quasi voluptate odit esse modi, commodi aliquid doloribus ipsum molestiae ex nihil impedit nemo unde, sapiente libero facilis officiis recusandae?</p>
+
+    <!--Representação em RGB (RED GREN BLUE)-->
+    <h2 style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);">Exemplo de cores</h2>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus autem quasi voluptate odit esse modi, commodi aliquid doloribus ipsum molestiae ex nihil impedit nemo unde, sapiente libero facilis officiis recusandae?</p>
+
+    <!-- Representação por HSL (HUE, SATURATION, LUMINOSITY)-->
+
+    <h2 style="background-color: hsl(240,100%, 50%); color:hsl(0, 0%, 100%);">Exemplo de cores</h2>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus autem quasi voluptate odit esse modi, commodi aliquid doloribus ipsum molestiae ex nihil impedit nemo unde, sapiente libero facilis officiis recusandae?</p>
+    
+    <h2 style="background-color: rgb(121, 189, 235); color: rgb(23, 85, 82);">Exemplo de cores</h2>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus autem quasi voluptate odit esse modi, commodi aliquid doloribus ipsum molestiae ex nihil impedit nemo unde, sapiente libero facilis officiis recusandae?</p>
+</head>
+<body>
+    
+</body>
+</html>
+
+DEGRADE
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de cores</title>
+    <style>
+        *{
+            height: 100%;
+        }
+        body{
+            background-image: linear-gradient(to top, #1111c1, #4444c3, #6666c3);
+            color: #ffff; 
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Novo teste de cores</h1>    
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Site de exemplo</h1>
+        <h2>Título 1</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet maiores fugit sint ullam. Dignissimos veniam temporibus, omnis, autem repudiandae eos, porro modi incidunt esse doloremque unde? In facere delectus odio!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo debitis repellendus vitae in atque dolor adipisci velit, placeat voluptates aspernatur ipsam nesciunt harum reprehenderit quas dicta possimus, natus illum corrupti!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa officia soluta ut aspernatur impedit debitis quas fugiat doloribus suscipit, sunt facere molestiae iusto obcaecati enim ratione nobis distinctio, deleniti quidem.</p>
+
+        <h2>Titulo 2</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium rem nihil itaque. Hic ut est itaque, ipsam numquam veritatis adipisci accusamus impedit laudantium perferendis explicabo sunt consequuntur, quia nesciunt obcaecati!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita repudiandae consequatur consequuntur nulla, tempore nemo assumenda, natus atque sed recusandae porro fugit aliquam exercitationem reiciendis dolorum sit? Soluta, omnis error.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, repellendus? Ab iusto architecto cupiditate repellat odit assumenda iste itaque quas? Soluta cum eos dolor veritatis nulla reiciendis sit et voluptatem!</p>
+        <h2>Titulo 3</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium rem nihil itaque. Hic ut est itaque, ipsam numquam veritatis adipisci accusamus impedit laudantium perferendis explicabo sunt consequuntur, quia nesciunt obcaecati!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita repudiandae consequatur consequuntur nulla, tempore nemo assumenda, natus atque sed recusandae porro fugit aliquam exercitationem reiciendis dolorum sit? Soluta, omnis error.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, repellendus? Ab iusto architecto cupiditate repellat odit assumenda iste itaque quas? Soluta cum eos dolor veritatis nulla reiciendis sit et voluptatem!</p>
+    </main>    
+</body>
+</html>
+
+@charset "UTF-8"
+*{
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: justify;
+}
+
+body{
+    background-image: linear-gradient(to left, #dc32ae, #d431a4,#d32c34, #dd234a,#dd18ac);
+    
+}
+main{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(164, 83, 175, 0.781);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1 {
+    color: #f4321a;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(129, 77, 5, 0.726);
+}
+h2{
+    color: #f6135a;
+    text-align: center;
+}

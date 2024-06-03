@@ -1,0 +1,65 @@
+CSS
+
+@charset "UTF-8";
+
+    /*em HTML é ID em CSS é # */ (Só pode um elemento por página)
+    /*em HTML é CLASS em CSS é . */(Pode vários elementos)
+body{
+    background-color: rgb(211, 240, 143);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(73, 110, 25);
+    justify-content: space-between;
+}
+
+h1.principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+
+}
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2{
+    color:rgb(27, 68, 27);
+}
+p{
+    text-align: justify;
+    text-indent: 25px;
+}
+
+HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores pwrsonalizados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="principal">Criando site com HTML e CSS</h1>
+    <h1 class="principal">Aprendendo HTML</h1>
+    
+    <h2>HTML básico</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima obcaecati explicabo aliquam eius doloremque laudantium eveniet architecto ad ipsam recusandae est repudiandae, nemo voluptatum sapiente voluptatem, accusamus a dolores.</p>
+    <h2>HTML intermediário</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor similique ab eum ex, perspiciatis fugit necessitatibus cum aliquid repudiandae asperiores maiores et ducimus molestias laudantium exercitationem. Labore facere fuga tempora?</p>
+    <h2>HTML avançado</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio consequatur porro minus beatae in sed quam aut? Vel praesentium illum et tenetur nesciunt, molestias dolorem earum ipsa repellendus laboriosam consectetur?</p>
+    <h1 class="principal">Aprendendo CSS</h1>
+    <h2>CSS básico</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque maxime expedita cumque tempora totam modi illo odio maiores, ex vel necessitatibus provident, dignissimos placeat animi veniam natus hic excepturi veritatis?</p>
+    <h2>CSS intedrmediário</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dignissimos numquam vitae quisquam, non libero sunt mollitia accusantium fugiat ipsam iure tenetur quaerat eos est molestiae rem qui, vero culpa?</p>
+    <h2>CSS avançado</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam modi et quae illum laudantium in nobis. Perferendis culpa rerum officiis dignissimos sint nostrum cumque illo minus dolorum, quibusdam repellat?</p>
+</body>
+</html>

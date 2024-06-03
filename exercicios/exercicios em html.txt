@@ -1,0 +1,173 @@
+Fazer desfio 5 e 6
+
+Aula 1
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu primeiro codigo</title>
+    <link rel="shortcut icon" href="html-5.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Olá mundo</h1>
+    <hr>
+    <p>Esse é o meu primeiro código HTML. Estou muito feliz!</p>
+    <p>Este é um momento único.</p>
+    
+</body>
+</html>
+------------------------------------
+Aula 2
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragrafos</title>
+</head>
+<body>
+    <h1>Parágrafos e quebra de linhas</h1>
+
+    <hr>
+
+    <p>você pode escrever um páragrafo de qualquer jeito, basta colocar entre as TAGS &lt;p &gt; e &lt;/p&gt;
+    </p>
+
+    <p>Se precisar quebrar o texto em algum lugar especifico <br>você pode usa a  TAG &lt;br&gt; <!--LESS THAN/GREATER THAN--></p>
+
+    <p>Você pode adcionar algus simbolos especiais</p>
+    &reg; &copy; &trade;&euro;&pound;&yen;&cent;&Delta;&abreve;&rAarr;&fallingdotseq;
+
+    <p>Vamos adcionar alguns emogi</p>
+    &#x1f596;
+    &#x1f913;
+</body>
+</html>
+
+Aula 3
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste com imagens</title>
+</head>
+<body>
+    <h1>Testando carga de imagens</h1>
+    <p>Abaixo você uma imagem que está na mesma pasta</p> 
+    <img src="html-5-300.png" alt="logo html">
+    <p>Podemos tambem carregar imagens que estão em sub-pastas</p>  
+    <img src="imagens/css-3-200l.png" alt="">
+    <p>Também podemos carregar imagens externas</p>
+    <img src="https://img-c.udemycdn.com/course/750x422/5638522_57a6.jpg" alt="link js">
+</body>
+</html>
+
+Aula 4
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo01.ico" type="image/x-icon">
+    <title>teste de favicon</title>
+</head>
+<body>
+    <h1>Olha o favicon aqui em cima</h1>    
+</body>
+</html>
+
+AULA 5
+
+Desafio
+
+Aula 6
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html-5.ico" type="image/x-icon">
+    <title>Hierarquia de titulos</title>
+</head>
+<body>
+    <h1>Entendendo Portugal</h1>
+    <h2>Introdução</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sequi voluptatem harum numquam doloremque mollitia delectus eligendi iure iusto quo, quae tempora repudiandae. Magni est dolorem quae iusto beatae voluptas!</p>
+    <h3>Justificação da Temática</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur error architecto inventore corrupti quidem autem praesentium nostrum, aspernatur blanditiis voluptatem aliquid tempore quia unde voluptates aut ipsum voluptas ratione minus.</p>
+    <h3>Caráter excepcional</h3>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, hic numquam! Non suscipit eveniet libero officiis, laborum doloribus obcaecati sed iure, veniam provident porro aperiam similique facilis, et esse minus!
+    <h3>Perguntas de partida</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magni eum modi necessitatibus explicabo, error reprehenderit eos. Dignissimos nemo voluptate minus deleniti sit repellat, unde provident ullam quae possimus qui!</p>
+    <h3>Metodologia de Investigação</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis at perferendis iusto aspernatur molestias? Cupiditate quia ad veritatis beatae reprehenderit ipsum consequuntur reiciendis omnis dolores tempore! Recusandae exercitationem incidunt laboriosam!</p>
+    <h2>Ordenamento do Territorio em Portugal</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, corporis voluptates sapiente eius sint aliquam fuga qui voluptate id accusamus, blanditiis enim similique, illum aliquid eveniet. Dolores magni perferendis ipsam?</p>
+    <h3>Os instrumentos de gestão</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus in magni totam perferendis commodi optio ad sequi debitis eveniet quae modi, molestias laboriosam ea blanditiis at? Voluptatem optio iste vel.</p>
+    <h4></h4>
+</body>
+</html>
+
+aula 7
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de semantica</title>
+</head>
+<body>
+    <p>
+        Eu moro na <address>rua Antônio Pereira</address>
+    </p>
+    
+</body>
+</html>
+
+aula 8
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: hsl(160, 93%, 54%);
+        }
+    </style>
+    <title>Formatação de texto</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Nessa frase temos un <b> termo em negrito</b>usando a tag B (não (semantica))</p>
+    <p>Nessa frase, temos um <strong>termo em destaque</strong>usando a tag strong (semantica)</p>
+    <h2>Itálico/Ênfase</h2>
+    <p>Nesta frase temos um <i>termo em italico</i> usando a tag I (não semantica)</p>
+    <p>
+        Nesta trase temoe um <em>termo em ênfase</em> usando a tag EM
+        (semantica)
+    </p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar tambem <mark style="background-color:rgb(180, 247, 47);">um texto marcado</mark> usando a tag mark </p>
+    <p>E no outro párgrafo temos outro texto <mark>marcado no final</mark> </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos crirandoo um<big> texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+    <h2>texto deletado</h2>
+    <p>Podemos marcar<del> um texto como excluido</del> para indicar que ele deve ser lido mas não considerado</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar enfase e indicar que ele foi adicionado depois</p>
+    <p>Existe tambem o <u>texto sublinhado</u> com a TAG U (não semantica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito </h2>
+    <p>Para inserir coisas tipo H<sub>2</sub>O</p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@charset "UTF-8"
+
+*{    
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-attachment: fixed;
+    background-image: radial-gradient(circle, #b9e4a8d8,#8FFACE,#C6FAE0,#66EBC5,#31e0c9);
+}
+h1, h2{
+    color: #ffff;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(129, 77, 5, 0.726);
+}
+
+figure #foto{
+    margin-top: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 45px;
+}
+figcaption{
+    text-align: center;
+}
+
+main{
+    background-image: linear-gradient(to left, #b9e4a8d8,#baf379d2,#31e0c9);
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 16px;
+    box-shadow: 5px 5px 15px rgb(rgba(46, 43, 46, 0.87);
+}

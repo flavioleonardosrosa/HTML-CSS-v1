@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupng Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkkhaki;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: lightblue;
+            padding: 10px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav>a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: greenyellow;
+        }
+        article>aside{
+            background-color: rgb(230, 219, 72);
+        }
+        footer{
+            height: 50px;
+            width: 300px;
+            background-color: black;
+            color: gray;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+
+        </section>
+        <article>
+            <h2>noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, excepturi incidunt? Consequuntur, quasi commodi unde cum autem provident sunt nobis quam nemo! Iusto suscipit ad explicabo distinctio molestiae magnam beatae?</p>
+            <aside>
+                <p>Artigo escrito</p>
+            </aside>
+        </article>
+    </main>
+
+    <footer>
+        <h3>
+            Desenvolvido por flavio
+        </h3>
+
+    </footer>
+
+</body>
+</html>

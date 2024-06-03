@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de responsivo</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        main{
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            min-width: 300px;
+        }
+        img{
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            background-color: aqua;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste responsivo </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, hic placeat quae, dolor, magnam enim praesentium odit numquam quos saepe corrupti nemo amet minima fugit cum optio impedit expedita quaerat.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt adipisci earum qui nulla itaque. Ab sequi eum cum eaque minus quidem perspiciatis porro rem incidunt. Atque quaerat necessitatibus odit sint.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis minus temporibus dolorem eum voluptatum rem voluptates quas obcaecati ut ipsum blanditiis id, amet autem dicta nobis quibusdam quis eaque eligendi?
+        </p>
+
+        <picture>
+            <source media="(max-width:800px)"srcset="irina-blok-pq.jpg">
+            <img src="irina-blok.jpg" alt="imagem irina blok">
+        </picture>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, hic placeat quae, dolor, magnam enim praesentium odit numquam quos saepe corrupti nemo amet minima fugit cum optio impedit expedita quaerat.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt adipisci earum qui nulla itaque. Ab sequi eum cum eaque minus quidem perspiciatis porro rem incidunt. Atque quaerat necessitatibus odit sint.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis minus temporibus dolorem eum voluptatum rem voluptates quas obcaecati ut ipsum blanditiis id, amet autem dicta nobis quibusdam quis eaque eligendi?
+        </p>
+    </main>
+    
+</body>
+</html>

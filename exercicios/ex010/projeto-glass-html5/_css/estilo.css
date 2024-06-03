@@ -1,0 +1,31 @@
+@import url(http://fontsgoogleapiscom/css?family=Titilium+web);
+@font-face{
+    font-family: 'Fontelogo';
+    src: url(../_fonts/bubleguam-sans-regular.otf)
+}
+
+body{
+    background-color: #dddddd;
+    font-family: Arial, sans-serif;
+}
+
+div#interface{
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0 , .5);
+}
+
+p{
+    color: #606060;
+    text-indent: 50px;
+}
+
+a{
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}

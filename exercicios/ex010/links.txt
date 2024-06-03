@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com link</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Voce pode acessar meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório no GitHub</a></p>
+    <p>Vamos ver na prática <a href="https://www.globo.com/flamengo" target="_blank" rel="external">clique aqui</a></p>
+    <p>Você pode acessar meu canal no <a href="https://www.youtube.com/cursoemvideo">Youtube</a></p>
+    <h2>Usando links internos</h2>
+    <p>Esta é a primeira página do site. Se você quiser pode acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p>
+    <P>acesse a nossa página de <a href="noticias/pag003.html">noticias</a></P>
+    <h1>Links para downloud</h1>
+    <ul>
+        <li><a href="projeto-glass-html5/_imagens/audio.png" download="audio" type="aplication/mpd">Baixar o livro em PDF</a></li>
+        <li><a href="noticias/pag003.html" download="#" type="aplication/html">Livro Compactado em zip</a></li>
+    </ul>
+
+</body>
+</html>
