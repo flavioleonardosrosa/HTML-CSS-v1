@@ -1,0 +1,56 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(105, 101, 101);
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding: 50px;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 50px;
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    color: rgb(56, 50, 50);
+    color: white;
+}
+
+section.imagem > p{
+    background-color: rgba(51, 51, 51);
+    width: 400px;
+}
+footer{
+    background-color: rgba(37, 28, 28, 0.808);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
