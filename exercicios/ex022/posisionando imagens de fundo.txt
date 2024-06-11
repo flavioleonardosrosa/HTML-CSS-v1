@@ -183,3 +183,59 @@ exercicio 05
     
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixo de tela</title>
+    <style>
+        body{
+            /* background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+            /* Shorthand - background
+            color > image > position > repeat >
+            [size este terá que ser fito (background-size: cover;) 
+            ] > attachment
+             */
+             background:  black url('imagens/wallpaper002.jpg') center center fixed no-repeat;
+             background-size: cover;
+        }
+        main{
+            background-color: white;
+            max-width: 300px;
+            padding: 10px;
+            margin: auto;
+            border: 1px darkblue solid;
+            border-radius: 16px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1> Teste de imagem de fundo</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil harum iure, aperiam autem dolorem mollitia consequatur ratione excepturi placeat eveniet esse necessitatibus et dicta non sequi? Nesciunt harum eaque dignissimos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ratione cumque cupiditate quas error ducimus minus. Recusandae placeat qui aperiam commodi totam debitis ex alias quod voluptas quae. Hic, aliquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non itaque et, exercitationem praesentium in accusantium? Commodi dolores rem sit nisi fuga nam ipsa eaque voluptatem, eos, harum quibusdam beatae possimus.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil harum iure, aperiam autem dolorem mollitia consequatur ratione excepturi placeat eveniet esse necessitatibus et dicta non sequi? Nesciunt harum eaque dignissimos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ratione cumque cupiditate quas error ducimus minus. Recusandae placeat qui aperiam commodi totam debitis ex alias quod voluptas quae. Hic, aliquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non itaque et, exercitationem praesentium in accusantium? Commodi dolores rem sit nisi fuga nam ipsa eaque voluptatem, eos, harum quibusdam beatae possimus.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil harum iure, aperiam autem dolorem mollitia consequatur ratione excepturi placeat eveniet esse necessitatibus et dicta non sequi? Nesciunt harum eaque dignissimos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ratione cumque cupiditate quas error ducimus minus. Recusandae placeat qui aperiam commodi totam debitis ex alias quod voluptas quae. Hic, aliquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non itaque et, exercitationem praesentium in accusantium? Commodi dolores rem sit nisi fuga nam ipsa eaque voluptatem, eos, harum quibusdam beatae possimus.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil harum iure, aperiam autem dolorem mollitia consequatur ratione excepturi placeat eveniet esse necessitatibus et dicta non sequi? Nesciunt harum eaque dignissimos.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ratione cumque cupiditate quas error ducimus minus. Recusandae placeat qui aperiam commodi totam debitis ex alias quod voluptas quae. Hic, aliquam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non itaque et, exercitationem praesentium in accusantium? Commodi dolores rem sit nisi fuga nam ipsa eaque voluptatem, eos, harum quibusdam beatae possimus.
+        
+        </p>
+    </main>
+</body>
+</html>
+
+CENTRALIZANDO VERTICAL DE CAIXAS
