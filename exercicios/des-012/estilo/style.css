@@ -7,7 +7,7 @@
 }
 
 *{
-    font-size: 1em;
+    font-size: 10vh;
     margin: 0PX;
     padding: 0PX;
 }
@@ -41,12 +41,12 @@ header a:hover, footer a:hover{
     text-decoration: underline;
 }
 section{
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 
 section > p{
@@ -79,8 +79,6 @@ section#img01{
 section#img02{
     background-image:url(../imagens/background002.jpg);
     background-position: right center;
-    
-    
 }
 
 footer{
