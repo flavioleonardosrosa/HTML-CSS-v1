@@ -1,0 +1,33 @@
+body{
+    background-color: ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+td.num{
+    text-align: center;
+    vertical-align: middle;
+}
+table{
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 400px;
+}
+th.pais, #num{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+td.num{
+    vertical-align: middle;
+}
