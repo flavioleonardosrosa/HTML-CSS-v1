@@ -17,6 +17,12 @@
         table{
             width: 500px;
             border-collapse: collapse;
+             position: relative;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: red;
         }
         /* th{
             border: 1px solid black;
@@ -40,6 +46,12 @@
             color: white;
         } 
 
+        thead>tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            /* fixar cabeçalho de tabela */
+        }
         tbody > tr:nth-child(2n){/*2n-1*/
             background-color: lightgray;
             /*Efeito por linha EX (2n/3n/4n etc)*/
@@ -201,6 +213,5 @@
                 <td class="num"><strong>203 062 512</strong></td>
         </tfoot>
     </table>
-
 </body>
 </html>
