@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+            font-family: cursive Arial, Helvetica, sans-serif;
+        }
+        caption{
+            font-size: 1.2rm;
+            padding: 20px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tr:nth-child(even){
+            background-color: rgb(238, 212, 212);
+        }
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela em telas pequenas</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor expedita ab sequi reprehenderit ipsum tempora, at maiores explicabo nemo ratione sed quaerat quasi eius officia rerum minus obcaecati nisi incidunt?</p>
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tb>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Jan</th>
+                        <th>Fev</th>
+                        <th>Mar</th>
+                        <th>Abr</th>
+                        <th>Mai</th>
+                        <th>Jun</th>
+                        <th>Jul</th>
+                        <th>Ago</th>
+                        <th>Set</th>
+                        <th>Out</th>
+                        <th>Nov</th>
+                        <th>Dez</th>
+                    </tr>
+                </tb>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Amazon Echo</th>
+                    <th>01</th>
+                    <th>04</th>
+                    <th>07</th>
+                    <th>12</th>
+                    <th>12</th>
+                    <th>7</th>
+                    <th>23</th>
+                    <th>14</th>
+                    <th>16</th>
+                    <th>17</th>
+                    <th>20</th>
+                    <th>30</th>
+                </tr>
+                <tr>
+                    <th>Lava Louças</th>
+                    <th>01</th>
+                    <th>04</th>
+                    <th>33</th>
+                    <th>10</th>
+                    <th>18</th>
+                    <th>27</th>
+                    <th>22</th>
+                    <th>16</th>
+                    <th>19</th>
+                    <th>17</th>
+                    <th>20</th>
+                    <th>40</th>
+                </tr>
+                <tr>
+                    <th>Play Statyion</th>
+                    <th>10</th>
+                    <th>34</th>
+                    <th>18</th>
+                    <th>13</th>
+                    <th>11</th>
+                    <th>37</th>
+                    <th>33</th>
+                    <th>66</th>
+                    <th>05</th>
+                    <th>15</th>
+                    <th>29</th>
+                    <th>45</th>
+                </tr>
+                <tr>
+                    <th>Tenis Adidas</th>
+                    <th>67</th>
+                    <th>54</th>
+                    <th>77</th>
+                    <th>62</th>
+                    <th>32</th>
+                    <th>87</th>
+                    <th>83</th>
+                    <th>64</th>
+                    <th>56</th>
+                    <th>97</th>
+                    <th>28</th>
+                    <th>300</th>
+                </tr>
+                <tr>
+                    <th>Iphone</th>
+                    <th>01</th>
+                    <th>44</th>
+                    <th>57</th>
+                    <th>19</th>
+                    <th>14</th>
+                    <th>37</th>
+                    <th>33</th>
+                    <th>54</th>
+                    <th>13</th>
+                    <th>10</th>
+                    <th>22</th>
+                    <th>34</th>
+                </tr>
+                <tr>
+                    <th>Xbox</th>
+                    <th>01</th>
+                    <th>04</th>
+                    <th>07</th>
+                    <th>12</th>
+                    <th>12</th>
+                    <th>7</th>
+                    <th>23</th>
+                    <th>14</th>
+                    <th>16</th>
+                    <th>17</th>
+                    <th>20</th>
+                    <th>30</th>
+                </tr>
+                <tr>
+                    <th>Smat tv</th>
+                    <th>11</th>
+                    <th>64</th>
+                    <th>37</th>
+                    <th>62</th>
+                    <th>32</th>
+                    <th>74</th>
+                    <th>25</th>
+                    <th>16</th>
+                    <th>43</th>
+                    <th>38</th>
+                    <th>28</th>
+                    <th>60</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
