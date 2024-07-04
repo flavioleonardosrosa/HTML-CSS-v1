@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <link rel="stylesheet" href="style-css/pagina-princioal.css">
+    <link rel="shortcut icon" href="../des-iframe_v1/pasta-extra/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup class="notas">
+                <h1>Noticias do dia a dia</h1>
+                <h2>Você sempre atualizado</h2>
+            </hgroup>
+            <!-- <img id="logo" src=".//pasta-extra/logo.png" alt=""> -->
+            <nav id="menu">
+                <h1>Menu principal</h1>
+                <ul>
+                    <li><a href="#">Cultura</a></li>
+                    <li><a href="#">Economia</a></li>
+                    <li><a href="#">Esportes</a></li>
+                    <li><a href="#">Políttica</a></li>
+                    <li><a href="#">Opinião</a></li>
+                    <li><a href="#">Culinária</a></li>
+                </ul>
+                <iframe src=""></iframe>
+            </nav>
+        </header>
+        <section id="corpo">
+            <article id="pagina principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Atualização diária</h3>
+                        <h1>Todas as noticias em um só lugar</h1>
+                        <h2>Por Flavio Leonardo</h2>
+                        <h3 class="direita">Atualizado em xx/xx/xxxx</h3>
+                    </hgroup>
+                    
+                </header>
+                    <h2>Informação geral</h2>
+                    <p>Um site pensado pra manter suas niticias diárias</p>
+                    <figure class="foto-legenda">
+                        <img src="" alt="">
+                        <figcaption>
+                            <h3>Noticias</h3>
+                            <p>Uma nova maneira de informar</p>
+                        </figcaption>
+                    </figure>
+            </article>
+        </section>
+        <aside id="lateral">
+            <h1>Outras noticias</h1>
+            <h2>Mais Informação pra Você</h2>
+            <h2>Aconteceu um dia</h2>
+            <p>#</p>
+            <h2>Culinária</h2>
+            <p>Aqui tudo sobre gastronomia</p>
+            <h2>Receitas</h2>
+            <p>#</p>            
+        </aside>
+        <footer id="rodape">
+            <p>Copryght &copy;Flavio Leonardo</p>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </footer>
+    </div>
+</body>
+</html>
