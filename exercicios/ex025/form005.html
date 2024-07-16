@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut" checked><label for="iesfut">Futebol</label><br>
+            <input type="checkbox" name="esvol" id="iesvol"><label for="iesvol">Volei</label><br>
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Basquete</label><br>
+            <input type="checkbox" name="esnat" id="iesnat"><label for="iesnat">Natação</label> <br>
+        </fieldset>
+            <fieldset>
+                <!--Botões de riadio tem que possuir o mesmo nome (ex:name=#####
+                    Prem o id tem que ser diferente ex (iesfem/iesmas)-->
+                    <p>
+                        <label for="inome">Nome </label>
+                        <input type="text" name="nome" id="inome" required minlength="8" maxlength="20"required>
+                    </p>
+                    <p>
+                        <label for="isobrenome">Sobrenome</label>
+                        <input type="text" name="nome" id="isobrenome" required minlength="8" maxlength="20"required>
+                    </p>
+                    <legend>Dados pessoais</legend>
+                <p><label for="iemail">Email</label>
+                    <input type="email" name="email" id="iemail" autocomplete="off" required>
+                        </p>
+                        <p>
+                    <label for="itel">Telefone</label>
+                    <input type="tel" name="tel" id="itel" autocomplete="off" pattern="^\(\d{2}\)\d{4,5}-\d{4,5}$" required placeholder="(xx)xxxxx-xxxx">
+                        </p>
+        
+            <input type="radio" name="sexo" id="isexmas" value="M" checked><label for="isexmas">Masculino</label>
+            <input type="radio" name="sexo" id="isfem" value="F"> <label for="isfem"> Feminino</label>
+        </fieldset>    
+        <p>
+            <input class="botao" type="submit" value="Enviar">
+            <input class="botao" type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
