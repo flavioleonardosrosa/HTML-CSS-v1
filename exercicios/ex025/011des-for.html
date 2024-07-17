@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link rel="shortcut icon" href="./imagens/logo.ico" type="image/x-icon">    
+</head>
+<body>
+    <h1>Atendimento ao cliente</h1>
+    <h3>Somente para estado do RJ</h3>
+        <form action="cadastro.php" method="post" autocomplete="off">
+        
+            <fieldset>
+                <legend>Preencha seus dados</legend>
+                <p>
+                    <label for="inome">Nome:</label>
+                    <input type="text" name="nome" id="inome" minlength="10" maxlength="30" required>
+                </p>
+                <p>
+                    <label for="isobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="isobrenome" minlength="10" maxlength="30" required>
+                </p>
+                <p>
+                    <label for="iemail">E-mai</label>
+                    <input type="email" name="email" id="iemail" minlength="15" maxlength="50" required autocomplete="off">
+                </p>
+                <p>
+                    <label for="itel">Telefone</label>
+                    <input type="tel" name="tel" id="itel" autocomplete="off" pattern="^\(\d{2})\d{4,5}-\d{4,5}$" required placeholder="(xx)xxxxx-xxxx">
+                </p>
+                <p>
+                    
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label for="icep">CEP</label>
+                    <input type="number" name="num" id="icep" autocomplete="off" minlength="1" maxlength="10"required>
+                <label for="Irua">Rua</label>
+                    <input type="text" name="rua" id="Irua" autocomplete="off" minlength="20" maxlength="100"required>
+                <label for="inum">Nº</label>
+                        <input type="number" name="num" id="inum" autocomplete="off" minlength="20" maxlength="100"required>
+                        <label for="Icid">Cidade</label>
+                    <input type="text" name="cidade" id="Icid" autocomplete="off" minlength="20" maxlength="100"required>
+                    <label for="Iest">Estado</label>
+                    <input type="text" name="estado" id="Iest" autocomplete="off" minlength="20" maxlength="100"required>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha a massa preferida</legend>
+                <p><input type="radio" name="redv" id="iredv" checked><label for="iredv">RedVelvet</label></p>
+                <p><input type="radio" name="black" id="iblack"> <label for="iblack">Cacau-Black</label></p>
+                <p><input type="radio" name="chif" id="ichif"> <label for="ichif">Chiffon</label></p>
+                <p><input type="radio" name="pao" id="ipao"> <label for="ipao">Pão de Ló</label> </p>
+                <p><input type="radio" name="man" id="iman"> <label for="iman">Amantegada</label></p>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha o recheio preferido</legend>
+                <p><input type="radio" name="nit" id="init" checked><label for="init">Ninho com Nutella</label></p>
+                <p><input type="radio" name="nicm" id="inicm"> <label for="inicm">Ninho com Geleia de Morango</label></p>
+                <p><input type="radio" name="pres" id="ipres"> <label for="ipres">Prestigio</label></p>
+                <p><input type="radio" name="abx" id="iabx"> <label for="iabx">Abacaxi</label> </p>
+                <p><input type="radio" name="bab" id="ibab"> <label for="ibab">Baba de moça</label></p>
+            </fieldset>  
+            <fieldset>
+                <legend>Escolha os doces da sua preferência</legend>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha seu bolo</legend>
+                <label for="ifoto"><p>Busque uma imagem para enviar</p></label>
+                <p><input type="file" name="foto" id="ifoto"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Mensagens</legend>
+                    <label for="imsg">Fale conosco</label> <br>
+                    <textarea name="msg" id="imsg" cols="50" rows="10"></textarea>   
+                </fieldset>
+                <p>
+                    <input class="botao" type="submit" value="Enviar">
+                    <input class="botao" type="reset" value="Cancelar">
+                </p>            
+            </form>
+</body>
+</html>
