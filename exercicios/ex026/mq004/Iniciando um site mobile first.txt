@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/mesdia-query.css">
+</head>
+<body>
+    <main>
+        <h1>Testando Media Queries</h1>
+        <img id="phone" src="imagens/icon-phone.png" alt="acessamdo via smartfone">
+        <img id="tablet" src="imagens/icon-tablet.png" alt="acessamdo via tablet">
+        <img id="print" src="imagens/icon-print.png" alt="versao para impressão">
+        <img id="pc" src="imagens/icon-pc.png" alt="versão para desktop">
+        <img id="tv" src="imagens/icon-tv.png" alt="versão para TV">
+    </main>    
+</body>
+</html>
+
+
+@charset "UTF-8";
+
+/*Versão mibile first*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    
+    height: 100vh;
+}
+
+body{
+    background: black url(../imagens/back-phone.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center center;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.774); 
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;   
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.651);
+    font-size: 1em;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+img#phone{display: block;}
+img#tablet{display: none;}
+img#print{display: none;}
+img#pc{display: none;}
+img#tv{display: none;}

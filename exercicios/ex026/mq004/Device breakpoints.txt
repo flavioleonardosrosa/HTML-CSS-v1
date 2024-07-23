@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/mesdia-query.css">
+</head>
+<body>
+    <main>
+        <h1>Testando Media Queries</h1>
+        <img id="phone" src="imagens/icon-phone.png" alt="acessamdo via smartfone">
+        <img id="tablet" src="imagens/icon-tablet.png" alt="acessamdo via tablet">
+        <img id="print" src="imagens/icon-print.png" alt="versao para impressão">
+        <img id="pc" src="imagens/icon-pc.png" alt="versão para desktop">
+        <img id="tv" src="imagens/icon-tv.png" alt="versão para TV">
+    </main>    
+</body>
+</html>
+
+
+>>>>>>>>>>>>>>>>>>>>
+
+@charset "UTF-8";
+
+/*Todas as outras medias*/
+/*Tipical Device Breakpoints
+Pequenas telas até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes telas Acima de 1200px
+*/       
+@media print{
+    /*IMPRESSÃO desnecessário background-image: */
+    body{
+        background-image: url(..//imagens/back-print.jpg);
+        }
+        main{
+            border: solid 2px black;
+        }
+        main h1{ 
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: none;
+            color: black;
+        }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: block;}
+    img#pc{display: none;}
+    img#tv{display: none;}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+    /*TABLET*/
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    
+    img#phone{display: none;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: none;}
+    
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    /*desktop*/
+    body{
+        background-image: url(..//imagens/back-pc.jpg);        
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: block;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 1200px){/*TELAS GRANDES*/
+    body{
+        background-image: url(..//imagens/back-tv.jpg);
+    }
+    
+    main{
+        width: 700px;
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: block;}
+}
