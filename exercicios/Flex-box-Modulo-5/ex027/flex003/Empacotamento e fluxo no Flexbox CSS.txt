@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexiblebox</title>
+    <style>
+        div.container{
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row wrap-reverse;
+            
+            /*
+		   JUSTFY-CONTENT faz alinhamento relativo 
+			main-axis (EIXO PRINCIPAL)
+		  FLEX-START pega o main-start o espaço em branco fica no final
+		  FLEX-END o espaço em branco fica no inicio	
+         	  CENTER fica no centro do conteiner um ao lado do outro ou um abaixo do outro
+		  SPACE-BETWEEN coloca o peimeiro item no main-start e o ultimo no main-end	
+		  SPACE-EVENLY distrui os elementos de forma igual demtro do container
+		  SPACE-AROUND 	
+		  Quando usar o colunm tem que ajustar 
+            a altura (height em px)
+            flex-direction: row;
+            flex-wrap: wrap;
+            O container é elemento pai
+            Basta colocar display flex que o conteudo filho se adapta*/
+            /*Automaticament flex direction row= LINHA da esquerda para a direita
+            flex direction row-reverse da direita para a esquerda
+            para posições verticais usamos flex direction column de cima para baixo
+            para colocar de baixo para cima usamos flex direction column reverse
+            Eixos- MAIN-AXIS (Eixo pricipal possui 2 pontoa - ponto final(main-star eixo inicial) e(main-end eixo final) 
+            O outro eixo criado é o eixo transversal (cross-start eixo inicial e cross-end eixo final)*/
+            
+        }
+        div.item{
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+            
+             /*O item é elemento filho
+            Basta colocar display auto que o conteudo ao container*/
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Exeplo de bloco A</div>
+        <div class="item">Exeplo de bloco B</div>
+        <div class="item">Exeplo de bloco C</div>
+        <div class="item">Exeplo de bloco D</div>
+        <div class="item">Exeplo de bloco E</div>
+        <div class="item">Exeplo de bloco F</div>
+        <div class="item">Exeplo de bloco G</div>
+    </div>
+</body>
+</html>

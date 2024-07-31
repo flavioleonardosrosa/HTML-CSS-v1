@@ -10,7 +10,6 @@
             display: flex;
             /*O container é elemento pai
             Basta colocar display flex que o conteudo filho se adapta*/
-            
         }
         div.item{
             background-color: lightblue;
@@ -19,9 +18,6 @@
             flex: auto;
              /*O item é elemento filho
             Basta colocar display auto que o conteudo ao container*/
-            margin: 2px;
-            padding: 10px;
-            
         }
     </style>
 </head>
