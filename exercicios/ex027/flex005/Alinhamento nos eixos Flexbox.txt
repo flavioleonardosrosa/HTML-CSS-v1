@@ -1,3 +1,23 @@
+JUSTIFY-CONTENT faz ajustamento em relação ao main-axis
+main-start eixo inicial
+main-end eixo final
+flex-start relaciona ao main start o espaço em branco ficará no final
+flex-end relaciona ao main-and o espaço ficará no inicio
+center posiciona os objetos ao centro
+space-between posiciona o 1º item no main start e o ultimo item no main and
+space-evenly os itens terão espaçamentos iguais
+space around centraliza os itens dentro dos espaços
+
+align itens 
+
+stretch alonga os itens a altura do eixo 
+flex-start posiciona os itens no topo do eixo
+flex-endo posiciona os itens na base do eixo
+cente posiciona os itens ao centro
+
+*para posicionar align itens é necessário ajustar a altura (height) do container o padrão é STRETCH*
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -38,3 +58,4 @@
     </div>    
 </body>
 </html>
+
