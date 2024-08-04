@@ -29,20 +29,12 @@
             width: 200px;
             background-color: aqua;
         }
-
     </style>
 </head>
 <body>
     <main>
         <section>
             <h1>Tela de login</h1>
-            <form action="cadastro.php" method="post" autocomplete="off">
-                <fieldset>
-                    <label for="inome">Nome</label>
-                    <input type="text" name="nome" id="inome" minlength="10" maxlength="20" required >
-                </fieldset>
-
-            </form>
         </section>
     </main>    
 </body>
